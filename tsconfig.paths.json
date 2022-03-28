@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
-    "paths": {}
+    "paths": {
+      "@src/*": ["./src/*"],
+      "@modules/*": ["./src/modules/*"]
+    }
   }
 }

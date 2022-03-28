@@ -1,12 +1,14 @@
-import React from 'react';
-import './App.css';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { ReportedBikeThefts } from '@modules/ReportedBikeThefts';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header"></header>
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/" render={ props => <ReportedBikeThefts { ...props } /> } />
+      </Switch>
+    </Router>
   );
 }
 
-export default App;
+export { App };
