@@ -6,7 +6,7 @@ function ReportedBikeThefts(..._: any[]) {
     <main className="container-fluid">
       <header className="p-3">
         <div className="row">
-          <div className="col-sm-2">
+          <div className="col-sm-2 d-flex align-items-center">
             <figure className="image">
               <img src={ Logo } alt="" />
             </figure>
